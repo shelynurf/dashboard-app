@@ -1,0 +1,190 @@
+// .App {
+//   text-align: center;
+// }
+
+// .App-logo {
+//   height: 40vmin;
+//   pointer-events: none;
+// }
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+// .App-header {
+//   background-color: #282c34;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
+
+// .App-link {
+//   color: #61dafb;
+// }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+$fmlx : #e47b21;
+$fmlx-hover : #ca6f20;
+$outline : #ede1e1;
+
+.nav-menu{
+  display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // width: 100%;
+  padding-inline: 1rem;
+  box-shadow: 2px 2px 4px #b5b5b5;
+}
+
+.logo{
+  max-width: px;
+}
+
+.icon{
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.dashboard{
+  display: grid;
+  align-items: flex-start;
+}
+
+.account-info{
+  display: flex;
+  gap: 1rem;
+  align-items: center
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sidebar{
+  display: grid;
+  text-align: start;
+  align-content: baseline;
+  width: 12rem;
+  height: 100vh;
+  background: #e47b21;
+  padding-top: 4rem;
+}
+
+.list-menu-sidebar{
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  color: white;
+}
+
+.list-menu-sidebar:hover{
+  background: white;
+  color: $fmlx;
+}
+
+.form{
+  justify-items: left;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.card{
+  border: 1px solid $outline;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.login-page{
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.button{
+  background: $fmlx;
+  padding: 0.5rem;
+  padding-inline: 1rem;
+  color: white;
+  border: white;
+  border-radius: 6px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.button:hover{
+  background: $fmlx-hover;
+}
+
+.input{
+  border-radius: 5px;
+  border-color: $outline;
+  height: 16px;
+  width: 20rem;
+  padding: 6px;
+}
+
+.title{
+  color: $fmlx;
+}
+
+.dropdown{
+  background: white;
+  
+}
+
+.list-menu-account{
+  padding-inline: 2rem;
+  padding-block: 0.5rem;
+}
+
+.list-menu-account:hover{
+  background-color: grey;
+  color: white;
+}
+
+.menu{
+  margin: 0;
+  position: absolute;
+  border: 1px solid $outline;
+  border-radius: 4px;
+  right: 0;
+}
+
+.container{
+  padding-inline: 4rem;
+}
+
+.footer{
+  border-top: 1px solid #b5b5b5;
+  justify-content: center;
+  display: flex;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background: white;
+}
+
